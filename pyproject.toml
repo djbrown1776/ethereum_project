@@ -7,4 +7,5 @@ requires-python = ">=3.12"
 dependencies = [
     "dbt-core==1.9.4",
     "dbt-snowflake==1.9.4",
+    "git-filter-repo>=2.47.0",
 ]
