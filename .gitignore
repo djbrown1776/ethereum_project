@@ -1,0 +1,79 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ========================
+# dbt
+# ========================
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# dbt profile (contains credentials!)
+profiles.yml
+
+# ========================
+# uv (package manager)
+# ========================
+# Uncomment the next line if you do NOT want to commit the lock file
+# uv.lock
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+credentials.yml
+secrets.yml
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# OS
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ========================
+# Misc
+# ========================
+*.log
+*.csv
+*.parquet
+*.tmp
+.cache/
