@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: eth
+    database: eth
+    schema: eth_schema
+    tables:
+      - name: CONTRACTS
+      - name: TOKEN_TRANSFERS
+      - name: TRANSACTIONS
